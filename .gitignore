@@ -1,0 +1,17 @@
+# Created by venv; see https://docs.python.org/3/library/venv.html
+# Ignore Python environment
+Lib/
+Scripts/
+*.pyc
+__pycache__/
+
+# Ignore large model files
+checkpoints/
+models/
+*.pth
+*.pt
+
+# Ignore system-specific files
+*.dll
+*.lib
+
